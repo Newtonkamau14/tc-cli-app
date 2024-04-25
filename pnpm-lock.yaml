@@ -11,9 +11,15 @@ dependencies:
   dotenv:
     specifier: ^16.4.5
     version: 16.4.5
+  g:
+    specifier: ^2.0.1
+    version: 2.0.1
   inquirer:
     specifier: ^8.0.0
     version: 8.2.6
+  tc-cli-app:
+    specifier: 'link:'
+    version: 'link:'
 
 packages:
 
@@ -398,6 +404,10 @@ packages:
       asynckit: 0.4.0
       combined-stream: 1.0.8
       mime-types: 2.1.35
+    dev: false
+
+  /g@2.0.1:
+    resolution: {integrity: sha512-Fi6Ng5fZ/ANLQ15H11hCe+09sgUoNvDEBevVgx3KoYOhsH5iLNPn54hx0jPZ+3oSWr+xajnp2Qau9VmPsc7hTA==}
     dev: false
 
   /gaxios@6.5.0:

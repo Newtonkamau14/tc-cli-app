@@ -11,7 +11,7 @@ const questions = [
     name: "text",
     message: "Enter the text to translate",
     validate(value){
-        const pass = value.match(/^[A-Za-z]+$/)
+        const pass = value.match(/^[A-Za-z]+(?:\s+[A-Za-z]+)*$/)
         if(pass){
             return true
         }
