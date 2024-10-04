@@ -1,7 +1,7 @@
 
 # TC-CLI-App
 
-A cli app for translating text from English to Swahili using Google Cloud Translation API.
+A CLI app for translating text from English to Swahili using Google Cloud Translation API.
 ## Prerequisite
 Node.js
 
